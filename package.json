@@ -1,0 +1,23 @@
+{
+  "name": "PROYECTO_PAG_COMPLETA",
+  "version": "1.0.0",
+  "description": "Mi primera web con node :')'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
