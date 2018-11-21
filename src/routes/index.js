@@ -6,10 +6,10 @@ router.get('/', (req, res) =>{
 })
 
 router.get('/contact', (req, res) =>{
-  res.render('contact', { tittle: 'Contact Page' });
+  res.render('contact.ejs', { tittle: 'Contact Page' });
 })
 
-router.get('*', (req, res) =>{
-  res.end('Archvo no encontrado');
-})
+// router.get('*', (req, res) =>{
+//   res.end('Archvo no encontrado');
+// })
 module.exports = router;
